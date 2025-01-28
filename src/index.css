@@ -1,0 +1,24 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  
+  text-decoration: none;
+  font-family: "Open Sans", serif;
+  font-family: "Open Sans", serif;
+  font-optical-sizing: auto;
+  list-style: none;
+
+  
+}
+
+
+
+
+
+body{
+  width: 100vw;
+  background-color: #111010;
+  overflow-x: hidden;
+  color: #fff;
+}

@@ -1,0 +1,156 @@
+.slider-container{
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 80px 0px;
+    flex-direction: column;
+    align-items: center;
+    gap: 80px;
+
+}
+
+.project-heading{
+    width: 75%;
+    display: flex;
+    color: white;
+}
+
+
+.project-heading h2{
+    width: 100%;
+    display: flex;
+    color: white;
+    font-size: 40px;
+    background: linear-gradient(270deg,#df8908 80%, #b415ff 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+
+.slider{
+    width: 87%;
+    border: none;
+    display: flex;
+    justify-content: center;
+   
+}
+
+
+.slider-div{
+    border: 1px solid white;
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    position: relative;
+}
+
+
+.overlay {
+    width: 100%;
+    height: 0%;
+    background: rgb(0, 0, 0);
+    background: linear-gradient(
+      0deg,
+      rgba(0, 0, 0, 0) -34%,
+      rgba(38, 38, 38, 0.87718837535014) 0%,
+      rgba(17, 17, 17, 0.8715861344537815) 100%
+    );
+    position: absolute;
+    z-index: 5;
+    transition: 0.5s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0%;
+    border-radius: 15px;
+  }
+
+
+  .slider-div:hover .overlay {
+    height: 100%;
+    opacity: 100%;
+  }
+
+
+  .overlay a {
+    text-decoration: none;
+  }
+  .overlay i {
+    font-size: 25px;
+    margin: 0 15px;
+    background-color: white;
+    color: #1b1b1b;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    transition: 0.3s ease;
+  }
+  .overlay i:hover {
+    background-color: #f78c00;
+    color: white;
+  }
+
+  
+.tool-github {
+    width: 100px;
+    height: 30px;
+    background-color: white;
+    position: absolute;
+    top: 56%;
+    border-radius: 50px;
+    left: 27%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro";
+    font-weight: 800;
+    letter-spacing: 2px;
+    opacity: 0%;
+    transition: 0.5s ease;
+  }
+  .tool-livedemo {
+    width: 120px;
+    height: 30px;
+    background-color: white;
+    color: black;
+    position: absolute;
+    top: 56%;
+    border-radius: 50px;
+    left: 45%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: "SF Pro";
+    font-weight: 800;
+    letter-spacing: 1px;
+    opacity: 0%;
+    transition: 0.5s ease;
+  }
+
+
+.slider div img{
+    height: 500px;
+    width: 350px;
+    object-fit: cover;
+    border-radius: 15px;
+    border: 1px solid white;
+}
+
+
+
+.slick-slide {
+    width: 80%;
+    display: flex !important; /* Flexbox layout */
+    justify-content: center; /* Center horizontally */
+    align-items: center; /* Center vertically */
+    
+  }
+
+
+
+
