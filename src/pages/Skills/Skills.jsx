@@ -30,9 +30,7 @@ export default function Skills() {
                             Strong focus on delivering responsive, pixel-perfect designs for seamless cross-device experiences.
                             </li>
 
-                            <li>
-                            Experienced in building efficient, responsive, and scalable web solutions using modern technologies. 
-                            </li>
+
                         </ul>
 
                     </div>

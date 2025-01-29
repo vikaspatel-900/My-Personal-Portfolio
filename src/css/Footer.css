@@ -1,7 +1,7 @@
 
 .footer {
     width: 100%;
-    height: 26vh;
+    height: 210px;
     overflow: hidden;
     position: relative;
     display: flex;
@@ -94,7 +94,7 @@
   }
 
   .footer-top-sec-left{
-    width: 40%;
+    width: 45%;
     display: flex;
     flex-direction: column;
     gap: 5px;
