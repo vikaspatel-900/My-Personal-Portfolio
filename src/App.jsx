@@ -1,12 +1,12 @@
 import React from 'react'
 import Navbar from './components/Navbar'
-import Home from './components/Home'
+
 import Footer from './components/Footer'
-import Skills from './components/Skills'
-import Newfooter from './components/Newfooter'
-import Project from './components/Project'
-import Socialicon from './components/Socialicon'
-import Education from './components/Education'
+import Home from './pages/Home/Home'
+import Skills from './pages/Skills/Skills'
+import Project from './pages/Projects/Project'
+import Education from './pages/Education/Education'
+import Newfooter from './pages/Contact/Newfooter'
 
 
 export default function App() {
@@ -16,7 +16,6 @@ export default function App() {
       <Home/>
       <Skills/>
       <Project/>
-      
       <Education/>
       <Newfooter/>
       <Footer/>
