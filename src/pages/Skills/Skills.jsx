@@ -9,29 +9,29 @@ export default function Skills() {
 
 
                 <div className="right-section-4">
-                <div className="technical-skill">
-                            <h2>Technical Skills </h2>
-                        </div>
+                    <div className="technical-skill">
+                        <h2>Technical Skills </h2>
+                    </div>
                     <div className="skill-heading">
 
                         <h2>Skills That Power My Development Journey.</h2>
-                        <p>With expertise in front-end and back-end technologies, I build dynamic and user-centric web applications. My skill set spans modern frameworks, responsive design principles, and collaborative tools to deliver robust and scalable solutions.</p>
+                        <p>With expertise in front-end and back-end technologies, I build dynamic and user-centric web applications. My skill set spans modern frameworks, responsive design principles, and collaborative tools to deliver robust and scalable solutions. Proficient in crafting visually appealing and interactive user interfaces. Expertise in managing complex application logic and state with modern tools like Redux. Expertise in managing complex application logic and state with modern tools like Redux. Strong focus on delivering responsive, pixel-perfect designs for seamless cross-device experiences.</p>
 
-                        <ul>
+                        {/* <ul>
                             <li>
-                            Proficient in crafting visually appealing and interactive user interfaces.
+                                
                             </li>
 
                             <li>
-                            Expertise in managing complex application logic and state with modern tools like Redux.
+                                Expertise in managing complex application logic and state with modern tools like Redux.
                             </li>
 
                             <li>
-                            Strong focus on delivering responsive, pixel-perfect designs for seamless cross-device experiences.
+                                Strong focus on delivering responsive, pixel-perfect designs for seamless cross-device experiences.
                             </li>
 
 
-                        </ul>
+                        </ul> */}
 
                     </div>
 

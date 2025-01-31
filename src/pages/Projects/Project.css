@@ -29,7 +29,7 @@
 
 
 .slider{
-    width: 87%;
+    width: 86%;
     border: none;
     display: flex;
     justify-content: center;
@@ -44,6 +44,16 @@
     object-fit: cover;
     border-radius: 15px;
     position: relative;
+}
+
+
+
+.slider div img{
+  height: 500px;
+  width: 350px;
+  object-fit: cover;
+  border-radius: 15px;
+  border: 1px solid white;
 }
 
 
@@ -133,18 +143,11 @@
   }
 
 
-.slider div img{
-    height: 500px;
-    width: 350px;
-    object-fit: cover;
-    border-radius: 15px;
-    border: 1px solid white;
-}
 
 
 
 .slick-slide {
-    width: 80%;
+    width: 86%;
     display: flex !important; /* Flexbox layout */
     justify-content: center; /* Center horizontally */
     align-items: center; /* Center vertically */

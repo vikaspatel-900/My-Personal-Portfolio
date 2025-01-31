@@ -36,6 +36,8 @@
     padding: 60px;
     justify-content:space-between;
     gap: 50Px;
+    flex-direction: column;
+    
     
     /* background-color: #111010; */
     
@@ -43,13 +45,15 @@
   
   
   .skill-heading{
-    width: 50%;
+    width: 100%;
     display: flex;
     justify-content: start;
     flex-direction: column;
     gap: 15px;
     align-items: start;
     padding-top: 5px;
+    text-align: center;
+    align-items: center;
     
   }
   
@@ -57,6 +61,7 @@
   .skill-heading h2{
     font-size: 25px;
     color:#f78c00;
+    
     
   }
   
@@ -83,7 +88,7 @@
   
   
   .skills-icon{
-    width: 530px;
+    width:100%;
     height: 80%;
     display: flex;
     flex-wrap: wrap;
