@@ -75,3 +75,47 @@
     background: linear-gradient(pink, red);
     
   }
+
+
+
+
+
+  .custom-cursor {
+    position: fixed;
+    width: 10px;
+    height: 10px;
+    border-radius: 50%;
+    pointer-events: none;
+    mix-blend-mode: difference;
+    transform: translate(-50%, -50%);
+    transition: width 0.3s ease, height 0.3s ease, background-color 0.2s ease;
+    z-index: 9999;
+    background-color: white;
+  }
+  
+  .cursor-default {
+    width: 20px;
+    height: 20px;
+   border: 2px solid white;
+  }
+  
+  .cursor-button {
+    width: 60px;
+    height: 60px;
+    background-color: white; /* Red for buttons */
+    color: black;
+  }
+  
+  .cursor-paragraph {
+    width: 50px;
+    height: 50px;
+    background-color:white; /* Green for paragraphs */
+  }
+  
+  .cursor-heading {
+    width: 80px;
+    height: 80px;
+    background-color: white; /* Blue for headings */
+    color: black;
+  }
+  

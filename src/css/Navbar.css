@@ -11,25 +11,30 @@
     font-family: "SF Pro";
     padding: 0 100px;
     z-index: 90;
+    gap: 30px;
+    
    
   }
   .nav_logo {
-    width: 12%;
-    height: 100%;
-    overflow: hidden;
+   width: 15%;
+   height: 100%;
     display: flex;
     align-items: center;
-    justify-content: center;
+    
+   
     cursor: pointer;
   }
   .nav_logo img {
-    width: 230%;
-    height: 230%;
+    width: 180px;
     object-fit: cover;
     pointer-events: none;
   }
   .navbar ul {
     list-style: none;
+    width: 60%;
+    display: flex;
+    
+    justify-content: center;
   }
   .navbar ul li {
     display: inline-block;
@@ -51,9 +56,16 @@
   }
 
 
+  .nav-btn{
+    width: 180px;
+    display: flex;
+    justify-content: center;
+  }
+
+
   
   .navbar button {
-    width: 120px;
+    width: 150px;
     padding: 6px 0px;
     border-radius: 25px;
     font-size: 16px;
@@ -71,3 +83,46 @@
      box-shadow: none;
      background:black;
   }
+
+
+
+
+
+/*=====================================================medea Quries =====================================================================*/
+
+
+@media screen and (max-width:1200px){
+  .navbar{
+    padding: 0px 40px;
+    
+  }
+
+
+  .navbar ul li a{
+    font-size: 16px;
+  }
+
+
+  .navbar button{
+    font-size: 14px;
+    width: 100px;
+    padding: 4px;
+    
+  }
+
+  .nav_logo img{
+    width: 150px;
+    
+  }
+}
+
+
+
+
+
+
+@media screen and (max-width:1000px){
+  .navbar ul{
+    display: none;
+  }
+}

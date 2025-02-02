@@ -3,7 +3,6 @@
     display: flex;
     flex-direction: column;
     gap: 80px;
-  
     align-items: center;
     color: white;
 }
@@ -129,4 +128,21 @@
 
 .email{
     background-color: black;
+}
+
+
+
+
+
+
+
+@media screen and (max-width:1460px){
+    .footer-bottom{
+        width: 95%;
+    }
+
+
+    .footer-section{
+        padding:0px 40px;
+    }
 }

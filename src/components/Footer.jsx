@@ -53,7 +53,7 @@ export default function Footer() {
                         <a href="https://www.linkedin.com/in/vikaspatel82/"> <i className="bi bi-linkedin" title="linkedin"></i></a>
 
 
-                        <a href='#'><i className="bi bi-github" title="github"></i></a>
+                        <a href='https://github.com/vikaspatel-900'><i className="bi bi-github" title="github"></i></a>
 
                         <a href="https://wa.me/918269741974" id="whatsapp-link"><i className="bi bi-whatsapp" title="whatsapp"></i></a>
 
