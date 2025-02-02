@@ -1,8 +1,9 @@
-# React + Vite
+🚀 Personal Portfolio Website – A modern, fully responsive portfolio website built using React.js.
+📌 Features:
+✅ Elegant UI/UX with smooth animations
+✅ Interactive projects showcase
+✅ About, Skills, and Contact sections
+✅ Dark/Light mode toggle (if applicable)
+✅ Mobile-friendly & SEO optimized
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
-
-Currently, two official plugins are available:
-
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+🔹 Tech Stack: React.js | CSS | JavaScript
