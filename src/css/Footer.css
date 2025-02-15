@@ -3,7 +3,6 @@
     width: 100%;
     height: max-content;
     overflow: hidden;
-    
     display: flex;
     flex-direction: column;
     justify-content: space-between;
@@ -40,7 +39,7 @@
   .footer-icon i:hover{
     transform: scale(1.3);
   }
-  
+/*   
   .bi-instagram{
     background-color: rgb(151, 30, 50);
     background: linear-gradient(
@@ -53,7 +52,7 @@
     );
   
     
-  }
+  } */
   
   .bi-facebook {
     background-color: #03387d;
@@ -77,9 +76,9 @@
     
   }
   
-  .bi-envelope-arrow-down-fill {
+  /* .bi-envelope-arrow-down-fill {
     background: linear-gradient(pink, red);
-  }
+  } */
 
  
 
@@ -168,3 +167,24 @@
     font-family: "SF Pro";
   }
   
+
+
+
+
+  @media screen and (max-width: 730px) {
+    .footer-copyright{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      height: max-content;
+      padding: 20px 0px;
+      width: 97%;
+      
+    }
+
+
+    .footer-copyright p{
+      font-size: 16px;
+    }
+  }

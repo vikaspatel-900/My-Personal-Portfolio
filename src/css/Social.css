@@ -1,18 +1,14 @@
 .social-icon{
     display: flex;
     width: 60px;
-    height: 300px;
     gap: 15px;
-    margin-top: 15px;
-    color: #fff;
-    
+    margin-top: 15px;   
 }
 
 
 
 
 .social-icon a{
-    
     width: 50px;
     height: 30px;
   }
@@ -26,7 +22,8 @@
     align-items: center;
     cursor: pointer;
     transition: all 0.4s;
-    color: #fff;
+    color: black;
+    background-color: grey;
   }
 
 
@@ -35,17 +32,7 @@
   }
   
   .bi-instagram {
-    background-color: rgb(151, 30, 50);
-    background: linear-gradient(
-      #833ab4,
-      #c13584,
-      #e1306c,
-      #fd1d1d,
-      #f56040,
-      #ffdc80
-    );
-  
-    
+    background-color: grey;
   }
   
   .bi-facebook {
@@ -72,7 +59,7 @@
   }
   
   .bi-envelope-arrow-down-fill{
-    background: linear-gradient(pink, red);
+    background-color: grey;
     
   }
 

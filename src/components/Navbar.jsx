@@ -1,6 +1,7 @@
 import React from 'react'
 import '../css/Navbar.css'
 import AnchorLink from 'react-anchor-link-smooth-scroll'
+import { navLink } from '../constants/Layout'
 
 
 export default function Navbar() {
@@ -11,14 +12,16 @@ export default function Navbar() {
           <img src='/assets/mylogo.png' alt='' />
         </a>
         <ul>
-          <li><AnchorLink className='anchor-link' offset={50} href='#home'>Home</AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={50} href='#skill-section'>Skills</AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={50} href='#projects'>Projects</AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={50} href='#Education'>Education</AnchorLink></li>
-          <li><AnchorLink className='anchor-link' offset={50} href='#contact'>Contact</AnchorLink></li>
+          
+          {
+            navLink.map((link)=>{
+                return <li key={link.title}><AnchorLink className='anchor-link' offset={50} href={link.href}>{link.title}</AnchorLink></li>
+            })
+          }
+          
         </ul>
          <div className='nav-btn'>
-         <button href="#" className="contact_btn"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect me</AnchorLink></button>
+             <button href="#" className="contact_btn"><AnchorLink className='anchor-link' offset={50} href='#contact'>Connect me</AnchorLink></button>
          </div>
       </div>
     </div>

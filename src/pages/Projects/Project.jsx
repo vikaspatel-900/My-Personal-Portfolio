@@ -5,16 +5,7 @@ import "slick-carousel/slick/slick-theme.css";
 import "./Project.css";
 
 function Project() {
-  var settings = {
-    dots: true,
-    infinite: true,
-    slidesToShow: 3,
-    slidesToScroll: 1,
-    autoplay: true,
-    centerMode: true,
-    autoplaySpeed: 4000,
-    pauseOnHover: true,
-  };
+
   return (
     <div className="slider-container" id="projects">
 
